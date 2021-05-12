@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a> 
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </ul>
+    </header>
+    
+    <section class="banner" id="home">
+        <div class="textBx">
+           <h2>Hello I'm<br> <span>Vaibhav Verma</span></h2>
+           <h3>I am a Developer</h3> 
+           <a href="#about" class="btn">About Me</a>
+        </div>
+     </section>
+     <section class="about" id="about">
+         <div class="heading">
+             <p>Get to know me</p>
+             <h2>About Me</h2>
+         </div>
+         <div class="content">
+             <div class="w50">
+                 <img src="images/me.jpg" alt="" class="proPic">
+                
+             </div>
+             <div class="contentBx w50">
+                 <h3>Who am i?</h3>
+                 <h2>I'm<b> Vaibhav Verma</b></h2>
+                 <p>I am a 3rd year student of Delhi Technical Campus pursuing B.Tech Computer Science.
+                      who likes programming.<br>I like playing Football, Table Tennis,Playing pc and Mobile Games
+                      Drawing and Painting.
+                 </p><br>
+                 <p>I have been awarded for being the Topper since Class-I to Class-X and also awarded as the winner of Zonal Level Table Tennis Competition for Two
+                    consecutive years </p>
+                    <div class="heading bottom">
+                        <a href="images/Vaibhav's Resume.pdf" target="_blank" class="btn round">Download CV</a>
+                        <div class="bt">
+                            <b>Name:</b> Vaibhav Verma<br>
+                            <b>Age:</b> 20
+                        </div>
+                        <div class="bt">
+                            <b>Email:</b> vaibhavalka@gmail.com<br>
+                            <b>Location:</b> India
+                        </div>
+                    </div>
+
+             </div>
+
+         </div>
+     </section>
+     <section class="projects" id="projects">
+        <div class="heading white">
+             <h2>My Projects</h2>
+            </div>
+            <div class="content">
+                <div class="projectBx">
+                    <a href="https://github.com/vav0811/Tic-tac-toe" target="_blank">
+                 <img src="images/tic-tac-toe1.png" alt="" ></a>                 
+                 <h3>Tic-tac-toe</h3>
+                 <p>Created using Python programming language</p>
+                </div>
+                <div class="projectBx">
+                    <a href="https://github.com/vav0811/NewsX" target="_blank">
+                    <img src="images/icon2.jpg" alt="" ></a>
+                    <h3>News Aggregator</h3>
+                    <p>Its an app which aggregates news articles from multiple website and present the data in one location.This is done using News API</p>
+                </div> 
+             <div class="projectBx">
+                 <a href="https://github.com/vav0811/Bank-Management" target="_blank">
+                <img src="images/bank.png" alt="" ></a>
+                <h3>Bank Management</h3>
+                <p>Basic bank management system using file handling in C++</p>
+             </div>
+            
+        </div>
+     </section>
+     <section class="contact" id="contact">
+         <div class="heading white">
+             <p>Feel free to contact me anytime</p>
+             <h2>Get in Touch</h2>
+         </div>
+         <div class="content">
+             <div class="contactInfo">
+                 <h3>Contact Info</h3>
+                 <p>Always available for work if the right project<br>comes along, Feel free to contact me!</p>
+                 <div class="contactInfoBx">
+                     <div class="box">
+                         <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                         </div>
+                         <div class="text">
+                             <h3>Address</h3>
+                             <address>Chandni Chowk<br>Delhi-110006</address>
+
+                         </div>
+                     </div>
+                     <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-phone-alt"></i>
+
+                        </div>
+                        <div class="text">
+                            <h3>Phone Number </h3>
+                            <p>+91-8799764169</p>
+                            
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>vaibhavalka@gmail.com</p>
+
+                            
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.facebook.com/vaibhav.verma.904" target="_blank">
+                                <i class="fab fa-facebook-square"></i>
+
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/vaibhav-verma-0811/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://github.com/vav0811?tab=repositories" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                 </div>
+             </div>
+            <div class="formBx">
+                 <form>
+                     <h3>Message Me</h3>
+                     <input type="text" placeholder="Full Name">
+                     <input type="email" placeholder="Email">
+                     <textarea name="" id="" rows="6" placeholder="Your Message"></textarea>
+                     <input type="submit" value="Send Message">
+                     
+                 </form>
+             </div>
+
+         </div>
+     </section>
+     <footer class="copyright">
+         <p>&copy; 2021, All rights reserved</p>
+     </footer>
+</body>
+</html>
